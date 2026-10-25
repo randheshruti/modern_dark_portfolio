@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #5b4bdb;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.article-card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #cccccc;
+}
+
+.article-card h2 {
+    color: #5b4bdb;
+}
+
+.article-card p {
+    line-height: 1.6;
+}
+
+.article-card small {
+    color: #666;
+}
